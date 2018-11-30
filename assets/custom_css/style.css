@@ -6,8 +6,8 @@ p{
     background-color:  #a30729;
 }
 .navbar-brand>img {
-    block-size: 38px;
-    margin-top: 0%;
+    block-size: 59px;
+    margin-top: -10%;
     max-width: 10vw;
 }
 #filter li a.active, #filter li a:hover {
