@@ -25,3 +25,8 @@ td {
 th {
     padding: 0vh 0vw 0vw 40vh;
 }
+.location-map {
+    padding: 4px;
+    border: 1px solid white;
+    border-bottom: 3px double white;
+}
