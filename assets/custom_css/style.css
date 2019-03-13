@@ -1,32 +1,58 @@
-p{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 17px;
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 17px;
 }
-.navbar-custom, .navbar-custom .dropdown-menu {
-    background-color:  #a30729;
+.navbar-custom,
+.navbar-custom .dropdown-menu {
+  background-color: #a30729;
 }
-.navbar-brand>img {
-    block-size: 59px;
-    margin-top: -10%;
-    max-width: 10vw;
+.navbar-brand > img {
+  block-size: 50px;
+  margin-top: -12%;
+  max-width: 3.5vw;
 }
-#filter li a.active, #filter li a:hover {
-    background:  rgb(92, 55, 62);
+#filter li a.active,
+#filter li a:hover {
+  background: rgb(92, 55, 62);
 }
 .biography ul {
-    background-color: #83e7c4;
+  background-color: #83e7c4;
 }
 .section-title::after {
-    color: blueviolet;
+  color: blueviolet;
 }
 td {
-    padding: 0vh 0vw 0vw 40vh;
+  padding: 0vh 0vw 0vw 40vh;
 }
 th {
-    padding: 0vh 0vw 0vw 40vh;
+  padding: 0vh 0vw 0vw 40vh;
 }
 .location-map {
-    padding: 4px;
-    border: 1px solid white;
-    border-bottom: 3px double white;
+  padding: 4px;
+  border: 1px solid white;
+  border-bottom: 3px double white;
+}
+
+.hire-section-bg2 {
+  padding: 110px 0;
+  background: -webkit-linear-gradient(
+    bottom,
+    rgb(192, 8, 177),
+    rgb(151, 5, 139)
+  );
+  background: -o-linear-gradient(
+    top,
+    rgb(192, 8, 177),
+    rgba(151, 5, 139, 0.575)
+  );
+  background: -moz-linear-gradient(
+    top,
+    rgb(192, 8, 177),
+    rgba(151, 5, 139, 0.575)
+  );
+  background: linear-gradient(
+    to top,
+    rgb(192, 8, 177),
+    rgba(151, 5, 139, 0.575)
+  );
 }
