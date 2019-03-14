@@ -14,7 +14,7 @@ p {
 }
 .navbar-custom,
 .navbar-custom .dropdown-menu {
-  background-color: #6b031b;
+  background-color: rgb(109, 3, 28);
 }
 .navbar-brand > img {
   block-size: 50px;
