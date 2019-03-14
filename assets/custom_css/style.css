@@ -14,7 +14,7 @@ p {
 }
 .navbar-custom,
 .navbar-custom .dropdown-menu {
-  background-color: #5c0120;
+  background-color: #6b031b;
 }
 .navbar-brand > img {
   block-size: 50px;
@@ -45,17 +45,20 @@ th {
 
 .hire-section-bg2 {
   padding: 110px 0;
-  background: -webkit-linear-gradient(bottom, #5c0120, #1a1e23);
-  background: -o-linear-gradient(top, #5c0120, #1a1e23);
+  background: -webkit-linear-gradient(bottom, #a30729eb, #1a1e23d4);
+  background: -o-linear-gradient(top, #a30729eb, #1a1e23d4);
   background: -moz-linear-gradient(
     top,
     rgb(192, 8, 177),
     rgba(151, 5, 139, 0.575)
   );
-  background: linear-gradient(to top, #5c0120, #1a1e23);
+  background: linear-gradient(to top, #a30729eb, #1a1e23d4);
 }
 .testimonial {
   font-size: 23px;
   line-height: 28px;
   text-transform: inherit;
+}
+.short-info {
+  text-align: justify;
 }
