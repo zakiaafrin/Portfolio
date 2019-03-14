@@ -1,10 +1,20 @@
+#home:before {
+  content: "";
+  background-color: rgba(26, 30, 35, 0.78);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 p {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 17px;
 }
 .navbar-custom,
 .navbar-custom .dropdown-menu {
-  background-color: #a30729;
+  background-color: #5c0120;
 }
 .navbar-brand > img {
   block-size: 50px;
@@ -35,24 +45,17 @@ th {
 
 .hire-section-bg2 {
   padding: 110px 0;
-  background: -webkit-linear-gradient(
-    bottom,
-    rgb(192, 8, 177),
-    rgb(151, 5, 139)
-  );
-  background: -o-linear-gradient(
-    top,
-    rgb(192, 8, 177),
-    rgba(151, 5, 139, 0.575)
-  );
+  background: -webkit-linear-gradient(bottom, #5c0120, #1a1e23);
+  background: -o-linear-gradient(top, #5c0120, #1a1e23);
   background: -moz-linear-gradient(
     top,
     rgb(192, 8, 177),
     rgba(151, 5, 139, 0.575)
   );
-  background: linear-gradient(
-    to top,
-    rgb(192, 8, 177),
-    rgba(151, 5, 139, 0.575)
-  );
+  background: linear-gradient(to top, #5c0120, #1a1e23);
+}
+.testimonial {
+  font-size: 23px;
+  line-height: 28px;
+  text-transform: inherit;
 }
