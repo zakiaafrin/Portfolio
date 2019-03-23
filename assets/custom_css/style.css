@@ -57,7 +57,7 @@ th {
 
 .code {
   display: inline-block;
-  margin-left: 50%;
+  /* margin-left: 45%; */
   margin-bottom: 5px;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 50px;
@@ -85,6 +85,9 @@ th {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 35px;
+}
+.text-center {
+  text-align: center;
 }
 
 .testimonial {
@@ -126,7 +129,22 @@ th {
   font-weight: 700;
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-right: 28px;
+  padding-left: 40px;
   text-transform: uppercase;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .navbar-custom .navbar-nav > li > a {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 5px;
+    padding-left: 11px;
+    text-transform: uppercase;
+  }
 }
 
 .photo {
@@ -145,4 +163,32 @@ th {
     margin-right: 50%;
     margin-bottom: 15px;
   }
+}
+
+.links a i {
+  position: relative;
+  color: #68c3a3;
+  font-size: 16px;
+  margin: 0 15px;
+  z-index: 100;
+}
+
+.links {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  margin-top: -20px;
+  margin-left: -45px;
+  opacity: 0;
+  -webkit-transform: translate(0, -50px);
+  -moz-transform: translate(0, -50px);
+  -ms-transform: translate(0, -50px);
+  -o-transform: translate(0, -50px);
+  transform: translate(0, -50px);
+}
+
+#filter li a {
+  font-weight: bold;
 }

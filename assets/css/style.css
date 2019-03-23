@@ -943,8 +943,8 @@ Resume Timeline
   color: #fff;
 }
 .skill-title {
-  width: 25%;
-  float: left;
+  /* width: 25%; */
+  /* float: left; */
 }
 .skill-title h3 {
   font-size: 18px;
@@ -957,6 +957,7 @@ Resume Timeline
 
 .skill-progress {
   position: relative;
+  /* text-align: center; */
 }
 .progress {
   height: 10px;
@@ -964,7 +965,7 @@ Resume Timeline
   background-color: #3a4149;
   border-radius: 3px;
   box-shadow: none;
-  width: 75%;
+  /* width: 75%; */
 }
 
 .progress-bar {
