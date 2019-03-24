@@ -27,6 +27,7 @@ p {
 }
 .biography ul {
   background-color: #83e7c4;
+  padding: 7px 25px 2px 25px;
 }
 .section-title::after {
   color: blueviolet;
@@ -191,4 +192,10 @@ th {
 
 #filter li a {
   font-weight: bold;
+}
+
+.font {
+  margin-left: 48px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
 }

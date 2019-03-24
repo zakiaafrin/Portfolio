@@ -300,11 +300,11 @@ ul.list-check li::before {
 }
 
 /* === HOME === */
-@media (max-width: 640px) {
+/* @media (max-width: 640px) {
   .tt-fullHeight {
     height: 560px !important;
   }
-}
+} */
 
 #home {
   background: url(../images/home.jpg) no-repeat center center;
@@ -314,8 +314,9 @@ ul.list-check li::before {
   background-size: cover;
   padding: 0;
   position: relative;
+  height: 100vh;
 }
-#home:before {
+/* #home:before {
   content: "";
   background-color: rgba(26, 30, 35, 0.85);
   position: absolute;
@@ -323,19 +324,18 @@ ul.list-check li::before {
   left: 0;
   width: 100%;
   height: 100%;
-}
+} */
 
 .intro {
-  position: absolute;
   width: 100%;
   top: 50%;
   left: 0;
   text-align: center;
-  -webkit-transform: translate(0%, -50%);
-  -moz-transform: translate(0%, -50%);
-  -ms-transform: translate(0%, -50%);
-  -o-transform: translate(0%, -50%);
-  transform: translate(0%, -50%);
+  -webkit-transform: translate(0%, 70%);
+  -moz-transform: translate(0%, 70%);
+  -ms-transform: translate(0%, 70%);
+  -o-transform: translate(0%, 70%);
+  transform: translate(0%, 70%);
   padding: 0 15px;
 }
 

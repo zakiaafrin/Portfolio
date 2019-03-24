@@ -57,13 +57,13 @@ jQuery(function($) {
   // -------------------------------------------------------------
   // Full Screen Slider
   // -------------------------------------------------------------
-  (function() {
-    $(".tt-fullHeight").height($(window).height());
+  // (function() {
+  //   $(".tt-fullHeight").height($(window).height());
 
-    $(window).resize(function() {
-      $(".tt-fullHeight").height($(window).height());
-    });
-  })();
+  //   $(window).resize(function() {
+  //     $(".tt-fullHeight").height($(window).height());
+  //   });
+  // })();
 
   // -------------------------------------------------------------
   // Sticky Menu
