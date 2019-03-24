@@ -28,12 +28,12 @@ jQuery(function($) {
      * Preloader
     /* ---------------------------------------------- */
 
-  $(window).ready(function() {
-    $("#pre-status").fadeOut();
-    $("#tt-preloader")
-      .delay(350)
-      .fadeOut("slow");
-  });
+  // $(window).ready(function() {
+  //   $("#pre-status").fadeOut();
+  //   $("#tt-preloader")
+  //     .delay(350)
+  //     .fadeOut("slow");
+  // });
 
   // -------------------------------------------------------------
   // Animated scrolling / Scroll Up
