@@ -195,6 +195,15 @@ th {
 
 .font {
   margin-left: 48px;
+  margin-bottom: -1.5px;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
+}
+.weblink{
+  color:blue;
+  font-weight: bold;
+}
+.weblink:hover{
+  color:rgb(102, 0, 15);
+  font-weight: bold;
 }
